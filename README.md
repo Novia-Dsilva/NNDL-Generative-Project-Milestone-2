@@ -280,15 +280,6 @@ Inference Steps    DDIM    PNDM    Euler   DPM++
 * **CFG 15.0:** Over-saturated sunset, unnatural red tones
 * **CFG 20.0:** Extreme saturation, loss of natural appearance
 
-**Comparison Table:**
-
-| CFG Scale | City Scene Quality | Lake Scene Quality | Overall Recommendation |
-|-----------|-------------------|-------------------|----------------------|
-| 1.0 - 3.0 | Abstract, muted | Washed out | Artistic use only |
-| 5.0 - 7.5 | Balanced, vibrant | Natural, clear | General use |
-| **7.5 - 10.0** | **Sharp, detailed** | **Rich, realistic** | **Optimal** |
-| 15.0+ | Over-processed | Over-saturated | Not recommended |
-
 ---
 
 ### Individual Sample Highlights
@@ -296,6 +287,7 @@ Inference Steps    DDIM    PNDM    Euler   DPM++
 **Example 1: Golden Retriever Puppy**
 
 ![Golden Retriever](milestone2_outputs/baseline/baseline_00.png)
+
 *"a golden retriever puppy playing in a sunny garden"*
 
 **Quality Metrics:**
@@ -309,6 +301,7 @@ Inference Steps    DDIM    PNDM    Euler   DPM++
 **Example 2: Vintage Red Car**
 
 ![Vintage Car](milestone2_outputs/baseline/baseline_05.png)
+
 *"a vintage red car parked on a cobblestone street"*
 
 **Quality Metrics:**
@@ -495,14 +488,6 @@ test_schedulers(prompt, prompt_idx=0)  # Tests 4 schedulers
 
 ---
 
-## References
-
-### Papers
-1. **Stable Diffusion:** Rombach et al. (2022). *High-Resolution Image Synthesis with Latent Diffusion Models.* [arXiv:2112.10752](https://arxiv.org/abs/2112.10752)
-2. **CLIP:** Radford et al. (2021). *Learning Transferable Visual Models From Natural Language Supervision.* [arXiv:2103.00020](https://arxiv.org/abs/2103.00020)
-3. **Classifier-Free Guidance:** Ho & Salimans (2022). *Classifier-Free Diffusion Guidance.* [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)
-4. **DDIM:** Song et al. (2020). *Denoising Diffusion Implicit Models.* [arXiv:2010.02502](https://arxiv.org/abs/2010.02502)
-5. **DPM-Solver:** Lu et al. (2022). *DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling.* [arXiv:2206.00927](https://arxiv.org/abs/2206.00927)
 
 ### Resources
 * [Hugging Face Diffusers Documentation](https://github.com/huggingface/diffusers)
@@ -515,11 +500,4 @@ test_schedulers(prompt, prompt_idx=0)  # Tests 4 schedulers
 ## License
 
 This project is for **academic purposes only** as part of the NNDL course curriculum.
-
-**Model Licenses:**
-* Stable Diffusion v1.5: CreativeML Open RAIL-M License
-* CLIP: MIT License
-* COCO Dataset: Creative Commons Attribution 4.0 License
 ---
-
-All deliverables completed and ready for submission
