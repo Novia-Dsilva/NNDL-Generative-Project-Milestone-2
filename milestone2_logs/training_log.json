@@ -1,0 +1,370 @@
+[
+  {
+    "timestamp": "2025-11-15T18:35:20.626235",
+    "experiment_type": "baseline",
+    "prompt": "a golden retriever puppy playing in a sunny garden",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_00.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:23.401768",
+    "experiment_type": "baseline",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_01.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:26.142157",
+    "experiment_type": "baseline",
+    "prompt": "a bowl of fresh strawberries on a wooden table",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_02.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:28.891850",
+    "experiment_type": "baseline",
+    "prompt": "an astronaut floating in space near Earth",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_03.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:31.639349",
+    "experiment_type": "baseline",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_04.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:34.408543",
+    "experiment_type": "baseline",
+    "prompt": "a vintage red car parked on a cobblestone street",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_05.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:37.208696",
+    "experiment_type": "baseline",
+    "prompt": "a colorful abstract painting with geometric shapes",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_06.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:39.990347",
+    "experiment_type": "baseline",
+    "prompt": "a cozy library with books and warm lighting",
+    "parameters": {
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/baseline/baseline_07.png",
+    "observations": "Initial baseline generation with default parameters"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:54.733640",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 1.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg1.0.png",
+    "observations": "CFG scale 1.0: Low adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:35:57.499136",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 3.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg3.0.png",
+    "observations": "CFG scale 3.0: Low adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:00.229273",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 5.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg5.0.png",
+    "observations": "CFG scale 5.0: Medium adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:02.978807",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 7.5,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg7.5.png",
+    "observations": "CFG scale 7.5: Medium adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:05.704636",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 10.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg10.0.png",
+    "observations": "CFG scale 10.0: Medium adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:08.464300",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 15.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg15.0.png",
+    "observations": "CFG scale 15.0: High adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:11.276019",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a futuristic city skyline at night with neon lights",
+    "parameters": {
+      "guidance_scale": 20.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt0_cfg20.0.png",
+    "observations": "CFG scale 20.0: High adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:14.059114",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 1.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg1.0.png",
+    "observations": "CFG scale 1.0: Low adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:16.802631",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 3.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg3.0.png",
+    "observations": "CFG scale 3.0: Low adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:19.665144",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 5.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg5.0.png",
+    "observations": "CFG scale 5.0: Medium adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:22.463982",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 7.5,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg7.5.png",
+    "observations": "CFG scale 7.5: Medium adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:25.228317",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 10.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg10.0.png",
+    "observations": "CFG scale 10.0: Medium adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:28.020077",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 15.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg15.0.png",
+    "observations": "CFG scale 15.0: High adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:30.813784",
+    "experiment_type": "cfg_sweep",
+    "prompt": "a peaceful mountain lake with reflection at sunset",
+    "parameters": {
+      "guidance_scale": 20.0,
+      "num_inference_steps": 50,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/cfg_sweep/prompt1_cfg20.0.png",
+    "observations": "CFG scale 20.0: High adherence"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:57.210181",
+    "experiment_type": "scheduler_test",
+    "prompt": "a golden retriever puppy playing in a sunny garden",
+    "parameters": {
+      "scheduler": "DDIM",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt0_DDIM.png",
+    "observations": "Scheduler: DDIM"
+  },
+  {
+    "timestamp": "2025-11-15T18:36:59.981171",
+    "experiment_type": "scheduler_test",
+    "prompt": "a golden retriever puppy playing in a sunny garden",
+    "parameters": {
+      "scheduler": "PNDM",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt0_PNDM.png",
+    "observations": "Scheduler: PNDM"
+  },
+  {
+    "timestamp": "2025-11-15T18:37:02.715029",
+    "experiment_type": "scheduler_test",
+    "prompt": "a golden retriever puppy playing in a sunny garden",
+    "parameters": {
+      "scheduler": "Euler",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt0_Euler.png",
+    "observations": "Scheduler: Euler"
+  },
+  {
+    "timestamp": "2025-11-15T18:37:05.467759",
+    "experiment_type": "scheduler_test",
+    "prompt": "a golden retriever puppy playing in a sunny garden",
+    "parameters": {
+      "scheduler": "DPM++",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt0_DPM++.png",
+    "observations": "Scheduler: DPM++"
+  },
+  {
+    "timestamp": "2025-11-15T18:37:08.228886",
+    "experiment_type": "scheduler_test",
+    "prompt": "an astronaut floating in space near Earth",
+    "parameters": {
+      "scheduler": "DDIM",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt1_DDIM.png",
+    "observations": "Scheduler: DDIM"
+  },
+  {
+    "timestamp": "2025-11-15T18:37:11.053805",
+    "experiment_type": "scheduler_test",
+    "prompt": "an astronaut floating in space near Earth",
+    "parameters": {
+      "scheduler": "PNDM",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt1_PNDM.png",
+    "observations": "Scheduler: PNDM"
+  },
+  {
+    "timestamp": "2025-11-15T18:37:13.757929",
+    "experiment_type": "scheduler_test",
+    "prompt": "an astronaut floating in space near Earth",
+    "parameters": {
+      "scheduler": "Euler",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt1_Euler.png",
+    "observations": "Scheduler: Euler"
+  },
+  {
+    "timestamp": "2025-11-15T18:37:16.490080",
+    "experiment_type": "scheduler_test",
+    "prompt": "an astronaut floating in space near Earth",
+    "parameters": {
+      "scheduler": "DPM++",
+      "num_inference_steps": 50,
+      "guidance_scale": 7.5,
+      "seed": 42
+    },
+    "image_path": "milestone2_outputs/schedulers/prompt1_DPM++.png",
+    "observations": "Scheduler: DPM++"
+  }
+]

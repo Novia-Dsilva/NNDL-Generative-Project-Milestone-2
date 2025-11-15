@@ -1,0 +1,15 @@
+{
+  "dataset": "COCO val2017",
+  "num_samples": 5000,
+  "model": "Stable Diffusion v2.1",
+  "text_encoder": "CLIP ViT-B/32",
+  "test_prompts": [
+    "a cat sitting on a couch",
+    "a beautiful sunset over the ocean",
+    "a person riding a bicycle in the park",
+    "a bowl of fresh fruit on a table",
+    "a dog playing with a ball in the garden"
+  ],
+  "device": "cuda",
+  "embedding_dim": 512
+}

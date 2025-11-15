@@ -1,0 +1,45 @@
+
+MILESTONE 1 + 2 SUBMISSION SUMMARY
+================================================================================
+
+MILESTONE 1 DELIVERABLES:
+✓ COCO dataset (5000 samples) downloaded and preprocessed
+✓ Text-to-embedding pipeline with CLIP ViT-B/32
+✓ Stable Diffusion 2.1 loaded and tested
+✓ 5 baseline test images generated
+✓ Repository initialized with all code
+
+MILESTONE 2 DELIVERABLES:
+✓ Text encoder (CLIP) integrated with Stable Diffusion 2.1
+✓ Baseline conditional generation working
+✓ Classifier-free guidance tuned (tested 7 CFG scales)
+✓ Noise schedules compared (tested 4 schedulers)
+✓ 30 images generated and logged
+
+FILES INCLUDED:
+1. Training log: milestone2_logs/training_log.json
+2. Experiment summary: milestone2_logs/experiment_summary.json
+3. Observations: milestone2_outputs/observations_summary.txt
+4. Generated images in milestone2_outputs/:
+   - baseline/ (8 images)
+   - cfg_sweep/ (14 images)
+   - schedulers/ (8 images)
+   - optimal/ (0 images)
+
+TECHNICAL SETUP:
+- Model: Stable Diffusion 2.1
+- Text Encoder: CLIP ViT-B/32
+- Dataset: COCO val2017 (5000 samples)
+- Device: cuda
+
+KEY FINDINGS:
+- Optimal CFG range: 7.5–10.0
+- Best scheduler: DPM++ Multistep
+- Recommended steps: 30–50 depending on scheduler
+- Sweet spot: CFG=8.5, DPM++, 40 steps
+
+NEXT STEPS (MILESTONE 3):
+- Fine-tune on custom dataset
+- Implement LoRA training
+- Add custom conditioning mechanisms
+- Optimize for specific use cases

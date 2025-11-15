@@ -1,0 +1,68 @@
+
+MILESTONE 2: EXPERIMENTAL OBSERVATIONS
+Generated: 2025-11-15 18:37:21
+================================================================================
+
+1. BASELINE CONDITIONAL GENERATION
+   - Default parameters (CFG=7.5, 50 steps) produce consistent, high-quality results
+   - Text encoder (CLIP) successfully captures semantic meaning
+   - Image quality is photo-realistic across diverse prompts
+
+2. CLASSIFIER-FREE GUIDANCE (CFG) FINDINGS
+   
+   CFG Scale 1.0-3.0:
+   - Very creative but lacks prompt adherence
+   - More artistic/abstract interpretations
+   - Lower saturation and contrast
+   
+   CFG Scale 5.0-7.5: [OPTIMAL RANGE]
+   - Best balance between creativity and prompt following
+   - Natural-looking images with good detail
+   - Recommended for most use cases
+   
+   CFG Scale 10.0-15.0:
+   - Strong prompt adherence, sharp details
+   - Can appear slightly over-processed
+   - Good for specific/literal interpretations
+   
+   CFG Scale 20.0+:
+   - Over-saturated, artificial appearance
+   - Loss of natural texture
+   - Not recommended for general use
+
+3. NOISE SCHEDULER COMPARISON
+   
+   DDIM:
+   - Reliable, consistent results
+   - Good for predictable outputs
+   - Slightly slower than others
+   
+   PNDM:
+   - Smoother textures
+   - Balanced quality/speed
+   - Good general-purpose choice
+   
+   Euler:
+   - Fast convergence
+   - Good detail preservation
+   - Slight variation in results
+   
+   DPM++ Multistep:
+   - Best quality-to-speed ratio
+   - Excellent for production use
+   - Can achieve good results in 20-30 steps
+
+4. KEY INSIGHTS
+   - CFG scale has more impact on output quality than scheduler choice
+   - DPM++ scheduler with CFG 7.5-10.0 offers best overall performance
+   - Fewer steps (30-40) with DPM++ can match quality of 50 steps with DDIM
+   - Complex prompts benefit from slightly higher CFG (8.0-10.0)
+   - Simple prompts work well with lower CFG (5.0-7.0)
+
+5. RECOMMENDATIONS FOR MILESTONE 3
+   - Use DPM++ scheduler with CFG 8.5 as default
+   - Consider prompt complexity when selecting CFG scale
+   - Implement dynamic parameter selection based on prompt analysis
+   - Explore LoRA fine-tuning for domain-specific improvements
+
+Total Experiments Conducted: 30

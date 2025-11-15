@@ -1,0 +1,9 @@
+{
+  "total_experiments": 30,
+  "experiment_types": {
+    "baseline": 8,
+    "cfg_sweep": 14,
+    "scheduler_test": 8
+  },
+  "generated_at": "2025-11-15T18:37:21.539086"
+}
